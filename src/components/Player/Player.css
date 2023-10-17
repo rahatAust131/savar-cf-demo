@@ -1,0 +1,55 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px 5px;
+    margin: 3%;
+  }
+  
+  .player-card {
+    color: #FFFFFF;
+    width: 90%;
+    border-radius: 10px;
+    margin: 5px 3px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+    box-shadow: 0 0 7px #DC052D;
+    font-family: 'Poppins';
+    margin: 25px 5px;
+  }
+  .player-name {
+    margin: 3px 0;
+    padding: 2px 0;
+  }
+  .player-card p {
+    margin: 3px 0;
+    font-size: 14px;
+  }
+  .player-img {
+    display: block;
+    width: 50%;
+    margin: 3px auto;
+  }
+  .player-img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  
+  #view-player-details-btn {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: #000000;
+    border: 2px solid #FF4D5B;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  #view-player-details-btn:hover {
+    cursor: pointer;
+    background-color: #FF4D5B;
+    border: 2px solid #000000;
+    color: #000000;
+  }
